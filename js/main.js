@@ -195,7 +195,7 @@ link5.addEventListener('click', function () {
   linkHr5.style.display = 'none'
   close5.style.display = 'none'
   setTimeout(function () {
-    window.location.href = 'https://www.naver.com/'
+    window.location.href = 'https://teamwine.netlify.app/'
   }, 2000);
 })
 
