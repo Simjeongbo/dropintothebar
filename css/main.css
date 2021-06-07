@@ -14,6 +14,7 @@
   height: 100vh;
   background-size: cover;
   overflow: hidden;
+  z-index: 5;
 }
 
 .background-wrap {
@@ -397,15 +398,17 @@ button {
 /* 팀원소개영역--------------------------------- */
 
 .team {
-  z-index: 0;
+  
   height: 100vh;
   background-color: rgba(0, 0, 0, 1);
   color: #fff;
   width: 100%;
+  z-index: -5;
 }
 
 .section-margin-padding {
   padding-top: 100px;
+  z-index: -3;
 }
 
 .team .slide {
@@ -414,12 +417,15 @@ button {
   height: 400px; 
   margin: 0 auto;
 }
+#team {
+  z-index: -3;
+}
 .swiper-container {
   width: 100%;
   height: 100%;
   margin:0 auto;
   border-radius: 1%;
-  
+  z-index: -0.1;
 }
 .swiper-slide {
   text-align: center;
@@ -448,7 +454,7 @@ button {
   height: 80%;
 }
 .swiper-slide img {
-  z-index: 0;
+
   display: inline;
   width: 70%;
   height: 95%;
@@ -509,8 +515,6 @@ button {
   min-height: 400px;
   background: transparent;
 }
-
-
 
 
 
